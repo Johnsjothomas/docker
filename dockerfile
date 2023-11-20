@@ -2,7 +2,7 @@ FROM php:latest
 
 WORKDIR /usr/src/app
 
-COPY ..
+COPY johnsonjo100/johnsjo
 
 RUN npm install
 
